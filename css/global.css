@@ -1,0 +1,45 @@
+:root {
+    --roboto: 'Roboto', sans-serif;
+    --subtitle: 1.375rem/1.75rem var(--roboto);
+    --regular1: 0.875rem/1.25rem var(--roboto);
+    --medium1: 500 0.875rem/1.25rem var(--roboto);
+    --regular2: 0.75rem/1rem var(--roboto);
+    --medium2: 500 .75rem/1rem var(--roboto);
+    --regular3: .625rem/.5rem var(--roboto);
+    --medium3: 500 .625rem/.5rem var(--roboto);
+    --button: 500 .875rem/1rem var(--roboto);
+    --caption: .6875rem/.8125rem var(--roboto);
+    --gray10: #F1F3F4;
+    --gray20: #70757A;
+    --gray30: #3C4043;
+    --gray50: #222222;
+    --white: #FFFFFE;
+    --blue10: #1A73E8;
+    --blue20: #039BE5;
+    --blue30: #1967D2;
+    --red10: #E8453C;
+
+}
+
+body {
+    font: var(--regular1);
+    margin: 0;
+    color: var(--gray50);
+    background: var(--white);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --gray50: #fffffe;
+        --gray20: #c1c1c1;
+        --white: #222222;
+    }
+
+    i {
+        color: #adadad;
+    }
+
+    h3 {
+        color: var(--gray20);
+    }
+} 

@@ -1,0 +1,22 @@
+.misCalendarios {
+    max-inline-size: 12.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: .875rem;
+}
+
+.misCalendarios-title h3 {
+    margin: 0;
+}
+
+.misCalendarios-title {
+    display: flex;
+    justify-content: space-between;
+    font: var(--regular);
+    color: var(--gray30);
+}
+
+.misCalendarios-title i {
+    font-size: 1.2rem;
+}
+
